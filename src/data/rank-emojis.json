@@ -1,0 +1,13 @@
+﻿{
+  "IRON": "RankIron",
+  "BRONZE": "RankBronze",
+  "SILVER": "RankSilver",
+  "GOLD": "RankGold",
+  "PLATINUM": "RankPlatinum",
+  "EMERALD": "RankEmerald",
+  "DIAMOND": "RankDiamond",
+  "MASTER": "RankMaster",
+  "GRANDMASTER": "RankGrandmaster",
+  "CHALLENGER": "RankChallenger",
+  "UNRANKED": "RankUnranked"
+}

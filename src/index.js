@@ -54,7 +54,7 @@ client.once(Events.ClientReady, (readyClient) => {
                   nameMap[entry.discordId] = entry.discordTag || entry.gameName;
                 }
               }
-              const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR");
+              const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR", { timeZone: "Europe/Paris" });
               const components = await buildPinnedComponents(snapshot.items, updatedAt, nameMap, guild);
               await msg.edit({ components, flags: MessageFlags.IsComponentsV2 });
               console.log("[Leaderboard] Pinned message updated.");
@@ -279,10 +279,20 @@ async function handleButtonInteraction(interaction) {
 
     try {
       const snapshot = data.snapshot || await refreshLeaderboard();
-      const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR");
+      const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR", { timeZone: "Europe/Paris" });
       const guild = interaction.guild;
-      const nameMap = {};
       const rankEmojis = await resolveRankEmojisForGuild(guild);
+      
+      // Récupérer les membres du serveur pour avoir leur displayName (pseudo serveur)
+      const nameMap = {};
+      for (const entry of data.entries) {
+        try {
+          const member = await guild.members.fetch(entry.discordId);
+          nameMap[entry.discordId] = member.displayName;
+        } catch {
+          nameMap[entry.discordId] = entry.discordTag || entry.gameName;
+        }
+      }
       
       const components = await buildPinnedComponents(snapshot.items, updatedAt, nameMap, guild);
       await interaction.editReply({ components, flags: MessageFlags.IsComponentsV2 });

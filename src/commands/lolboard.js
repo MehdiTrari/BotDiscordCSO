@@ -311,9 +311,21 @@ module.exports = {
 
     try {
       const snapshot = await refreshLeaderboard();
-      const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR");
+      const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR", { timeZone: "Europe/Paris" });
       const rankEmojis = await resolveRankEmojis(interaction.guild);
+      
+      // Récupérer les membres du serveur pour avoir leur displayName (pseudo serveur)
       const nameMap = {};
+      for (const entry of data.entries) {
+        try {
+          const member = await interaction.guild.members.fetch(entry.discordId);
+          nameMap[entry.discordId] = member.displayName;
+        } catch {
+          // Membre pas trouvé, utiliser le discordTag ou gameName
+          nameMap[entry.discordId] = entry.discordTag || entry.gameName;
+        }
+      }
+      
       const components = buildComponents(snapshot.items, updatedAt, rankEmojis, nameMap, data.entries);
       
       // Supprimer l'ancien leaderboard épinglé s'il existe

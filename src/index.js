@@ -43,10 +43,16 @@ client.once(Events.ClientReady, (readyClient) => {
             if (msg) {
               const guild = await readyClient.guilds.fetch(pinData.guildId);
               const data = loadData();
-              // Utiliser les données stockées au lieu de fetch tous les membres
+              // Récupérer les membres du serveur pour avoir leur displayName (pseudo serveur)
               const nameMap = {};
               for (const entry of data.entries) {
-                nameMap[entry.discordId] = entry.discordTag || entry.gameName;
+                try {
+                  const member = await guild.members.fetch(entry.discordId);
+                  nameMap[entry.discordId] = member.displayName;
+                } catch {
+                  // Membre pas trouvé, utiliser le discordTag ou gameName
+                  nameMap[entry.discordId] = entry.discordTag || entry.gameName;
+                }
               }
               const updatedAt = new Date(snapshot.updatedAt).toLocaleString("fr-FR");
               const components = await buildPinnedComponents(snapshot.items, updatedAt, nameMap, guild);

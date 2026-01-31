@@ -4,9 +4,8 @@ const path = require("node:path");
 const { token } = require("./config");
 const { refreshLeaderboard, loadPinData, loadData, saveData, parseRiotId, resolvePuuid } = require("./leaderboard");
 
-// Import du système de logs
-const logsCommand = require("./commands/logs");
-const { addLog, loadLogsPinData, buildLogsComponents } = logsCommand;
+// Import du système de logs (fichier séparé pour éviter dépendance circulaire)
+const { addLog, loadLogsPinData, buildLogsComponents } = require("./logs-utils");
 
 // Intercepter les console.log pour les stocker
 const originalLog = console.log;

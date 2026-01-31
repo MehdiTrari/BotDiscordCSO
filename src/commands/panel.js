@@ -5,6 +5,7 @@ const {
   ButtonStyle,
   EmbedBuilder,
   PermissionFlagsBits,
+  MessageFlags,
 } = require("discord.js");
 
 const EMBED_COLOR = 0xb10f0f;
@@ -57,7 +58,7 @@ module.exports = {
         .setStyle(ButtonStyle.Success)
     );
 
-    await interaction.reply({ content: "Panel créé !", ephemeral: true });
+    await interaction.reply({ content: "Panel créé !", flags: MessageFlags.Ephemeral });
     await interaction.channel.send({ embeds: [embed], components: [row1, row2] });
   },
 };

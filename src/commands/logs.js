@@ -35,14 +35,14 @@ module.exports = {
 
     if (subcommand === "clear") {
       clearLogs();
-      await interaction.reply({ content: "✅ Logs effacés.", ephemeral: true });
+      await interaction.reply({ content: "✅ Logs effacés.", flags: MessageFlags.Ephemeral });
       return;
     }
 
     if (subcommand === "stop") {
       const pinData = loadLogsPinData();
       if (!pinData) {
-        await interaction.reply({ content: "❌ Aucun panneau de logs épinglé.", ephemeral: true });
+        await interaction.reply({ content: "❌ Aucun panneau de logs épinglé.", flags: MessageFlags.Ephemeral });
         return;
       }
       try {
@@ -55,12 +55,12 @@ module.exports = {
         // ignore
       }
       clearLogsPinData();
-      await interaction.reply({ content: "✅ Panneau de logs retiré.", ephemeral: true });
+      await interaction.reply({ content: "✅ Panneau de logs retiré.", flags: MessageFlags.Ephemeral });
       return;
     }
 
     // /logs display
-    await interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
     try {
       // Supprimer l'ancien panneau s'il existe

@@ -251,9 +251,9 @@ client.on(Events.InteractionCreate, async (interaction) => {
   } catch (error) {
     console.error(error);
     if (interaction.replied || interaction.deferred) {
-      await interaction.followUp({ content: "Erreur lors de l'exécution de la commande.", ephemeral: true });
+      await interaction.followUp({ content: "Erreur lors de l'exécution de la commande.", flags: MessageFlags.Ephemeral });
     } else {
-      await interaction.reply({ content: "Erreur lors de l'exécution de la commande.", ephemeral: true });
+      await interaction.reply({ content: "Erreur lors de l'exécution de la commande.", flags: MessageFlags.Ephemeral });
     }
   }
 });
@@ -285,7 +285,7 @@ async function handleButtonInteraction(interaction) {
   }
 
   if (customId === "lol_unlink") {
-    await interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     
     const data = loadData();
     const existing = data.entries.find((e) => e.discordId === interaction.user.id);
@@ -304,7 +304,7 @@ async function handleButtonInteraction(interaction) {
   }
 
   if (customId === "lol_refresh") {
-    await interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     
     try {
       const snapshot = await refreshLeaderboard();
@@ -317,7 +317,7 @@ async function handleButtonInteraction(interaction) {
   }
 
   if (customId === "lol_leaderboard") {
-    await interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     
     const data = loadData();
     if (!data.entries.length) {
@@ -355,7 +355,7 @@ async function handleButtonInteraction(interaction) {
 // Modal submit handler
 async function handleModalSubmit(interaction) {
   if (interaction.customId === "lol_link_modal") {
-    await interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
     const riotIdRaw = interaction.fields.getTextInputValue("riot_id");
     const riotId = parseRiotId(riotIdRaw);

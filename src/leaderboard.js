@@ -139,8 +139,10 @@ async function refreshLeaderboard() {
         await sleep(RATE_LIMIT_MS);
         try {
           const account = await resolveAccountByPuuid(entry.puuid);
-          // Mettre à jour le gameName/tagLine si changé
-          if (account.gameName !== entry.gameName || account.tagLine !== entry.tagLine) {
+          // Mettre à jour le gameName/tagLine si changé (comparaison insensible à la casse)
+          const nameChanged = account.gameName.toLowerCase() !== entry.gameName.toLowerCase();
+          const tagChanged = account.tagLine.toLowerCase() !== entry.tagLine.toLowerCase();
+          if (nameChanged || tagChanged) {
             console.log(`[Leaderboard] Pseudo mis à jour: ${entry.gameName}#${entry.tagLine} → ${account.gameName}#${account.tagLine}`);
             entry.gameName = account.gameName;
             entry.tagLine = account.tagLine;

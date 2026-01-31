@@ -4,6 +4,33 @@ const path = require("node:path");
 const { token } = require("./config");
 const { refreshLeaderboard, loadPinData, loadData, saveData, parseRiotId, resolvePuuid } = require("./leaderboard");
 
+// Import du système de logs
+const logsCommand = require("./commands/logs");
+const { addLog, loadLogsPinData, buildLogsComponents } = logsCommand;
+
+// Intercepter les console.log pour les stocker
+const originalLog = console.log;
+const originalError = console.error;
+const originalWarn = console.warn;
+
+console.log = (...args) => {
+  originalLog(...args);
+  const message = args.map(a => typeof a === "object" ? JSON.stringify(a) : String(a)).join(" ");
+  addLog(message, "info");
+};
+
+console.error = (...args) => {
+  originalError(...args);
+  const message = args.map(a => typeof a === "object" ? JSON.stringify(a) : String(a)).join(" ");
+  addLog(message, "error");
+};
+
+console.warn = (...args) => {
+  originalWarn(...args);
+  const message = args.map(a => typeof a === "object" ? JSON.stringify(a) : String(a)).join(" ");
+  addLog(message, "warn");
+};
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildEmojisAndStickers] });
 
 client.commands = new Collection();
@@ -70,6 +97,28 @@ client.once(Events.ClientReady, (readyClient) => {
       isRefreshing = false;
     }
   };
+
+  // Fonction pour mettre à jour le panneau de logs
+  const updateLogsPanel = async () => {
+    const logsPinData = loadLogsPinData();
+    if (!logsPinData) return;
+    
+    try {
+      const channel = await readyClient.channels.fetch(logsPinData.channelId);
+      if (channel) {
+        const msg = await channel.messages.fetch(logsPinData.messageId).catch(() => null);
+        if (msg) {
+          const components = buildLogsComponents();
+          await msg.edit({ components, flags: MessageFlags.IsComponentsV2 });
+        }
+      }
+    } catch {
+      // ignore silently to avoid log spam
+    }
+  };
+
+  // Mettre à jour le panneau de logs toutes les 5 secondes
+  setInterval(updateLogsPanel, 5000);
 
   runRefresh();
   setInterval(runRefresh, refreshIntervalMs);

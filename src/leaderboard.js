@@ -96,6 +96,12 @@ async function resolveAccount(gameName, tagLine) {
   );
 }
 
+async function resolveAccountByPuuid(puuid) {
+  return riotFetch(
+    `${ACCOUNT_API}/riot/account/v1/accounts/by-puuid/${encodeURIComponent(puuid)}`
+  );
+}
+
 async function resolvePuuid(gameName, tagLine) {
   const account = await resolveAccount(gameName, tagLine);
   return account.puuid;
@@ -127,7 +133,27 @@ async function refreshLeaderboard() {
 
   for (const entry of data.entries) {
     try {
-      if (!entry.puuid) {
+      // Si on a déjà le PUUID, on récupère le pseudo actuel via l'API
+      // pour gérer les changements de pseudo
+      if (entry.puuid) {
+        await sleep(RATE_LIMIT_MS);
+        try {
+          const account = await resolveAccountByPuuid(entry.puuid);
+          // Mettre à jour le gameName/tagLine si changé
+          if (account.gameName !== entry.gameName || account.tagLine !== entry.tagLine) {
+            console.log(`[Leaderboard] Pseudo mis à jour: ${entry.gameName}#${entry.tagLine} → ${account.gameName}#${account.tagLine}`);
+            entry.gameName = account.gameName;
+            entry.tagLine = account.tagLine;
+          }
+        } catch (err) {
+          // Si erreur 404, le compte n'existe plus
+          if (err.status === 404) {
+            console.warn(`[Leaderboard] Compte introuvable pour PUUID ${entry.puuid}`);
+          }
+          // Continuer avec les anciennes infos
+        }
+      } else {
+        // Pas de PUUID stocké, on le récupère via gameName/tagLine
         await sleep(RATE_LIMIT_MS);
         const account = await resolveAccount(entry.gameName, entry.tagLine);
         entry.puuid = account.puuid;

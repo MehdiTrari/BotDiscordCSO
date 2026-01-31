@@ -22,12 +22,13 @@ module.exports = {
       .setDescription(
         "Bienvenue sur le leaderboard SoloQ de la CSO !\n\n" +
         "**Comment ça marche ?**\n" +
-        "• Cliquez sur **Lier mon compte** pour associer votre compte Riot\n" +
-        "• Votre rang sera automatiquement mis à jour toutes les 5 minutes\n" +
-        "• Cliquez sur **Voir le leaderboard** pour afficher le classement\n\n" +
-        "⚠️ Assurez-vous d'entrer votre Riot ID au format : `Pseudo#TAG`"
+        "• Cliquez sur **🔗 Lier mon compte** pour associer votre compte Riot\n" +
+        "• Votre rang sera automatiquement mis à jour toutes les 10 minutes\n" +
+        "• Cliquez sur **📊 Voir le leaderboard** pour afficher le classement\n" +
+        "• Vous pouvez vous délier à tout moment avec **❌ Délier mon compte**\n\n" +
+        "⚠️ Entrez votre Riot ID au format : `Pseudo#TAG`"
       )
-      .setFooter({ text: "CSO SoloQ Leaderboard" })
+      .setFooter({ text: "CSO SoloQ Leaderboard • Auto-refresh 10 min" })
       .setTimestamp();
 
     const row1 = new ActionRowBuilder().addComponents(

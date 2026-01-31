@@ -15,18 +15,27 @@ module.exports = {
         {
           name: "🎮 Commandes",
           value: [
-            "`/lolboard display` — Afficher le leaderboard (auto-refresh 20 min)",
-            "`/lolboard stop` — Retirer le leaderboard",
-            "`/lolboard add @membre Pseudo#Tag` — Lier un compte LoL",
-            "`/lolboard kick @membre` — Retirer un membre",
-            "`/panel` — Créer le panel de contrôle",
+            "`/lolboard display` — Afficher le leaderboard épinglé",
+            "`/lolboard stop` — Retirer le leaderboard épinglé",
+            "`/lolboard add @membre Pseudo#Tag` — Lier un compte LoL à un membre",
+            "`/lolboard kick @membre` — Retirer un membre du leaderboard",
+            "`/panel` — Créer le panel de contrôle interactif",
           ].join("\n"),
         },
         {
           name: "🔗 Comment lier son compte ?",
           value: [
-            "**Option 1:** Clique sur le bouton **Lier mon compte** du panel",
+            "**Option 1:** Clique sur **🔗 Lier mon compte** dans le panel",
             "**Option 2:** Demande à un admin d'utiliser `/lolboard add`",
+          ].join("\n"),
+        },
+        {
+          name: "🎛️ Boutons du Panel",
+          value: [
+            "🔗 **Lier mon compte** — Associer ton compte Riot",
+            "❌ **Délier mon compte** — Te retirer du leaderboard",
+            "🔄 **Rafraîchir** — Forcer une mise à jour des rangs",
+            "📊 **Voir le leaderboard** — Afficher le classement",
           ].join("\n"),
         },
         {
@@ -34,8 +43,8 @@ module.exports = {
           value: [
             "• Classement automatique par rang et LP",
             "• Lien direct vers ton profil OP.GG",
-            "• Mise à jour automatique toutes les 5 minutes",
-            "• Panel interactif avec boutons",
+            "• Mise à jour automatique toutes les 10 minutes",
+            "• Emojis de rang personnalisés",
           ].join("\n"),
         }
       );

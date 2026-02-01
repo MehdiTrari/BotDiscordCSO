@@ -1,0 +1,1290 @@
+{
+  "activeBets": {
+    "7711720619": {
+      "gameId": "7711720619",
+      "trackedPlayer": {
+        "puuid": "We9PB-STJeVBFomJlvbfFjLzuMmFUB8Jr7CF17H4AJ68OkCD9Ba7vAt-rUAfZ1THhZOaqHHOs8aqGQ",
+        "discordId": "320604560672555020",
+        "gameName": "eomer",
+        "tagLine": "TUEUR",
+        "championId": 166,
+        "championName": "Akshan",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Akshan.png",
+        "teamId": 100
+      },
+      "gameStartTime": 1769962292887,
+      "bettingEndsAt": 1769963280261,
+      "status": "open",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": "We9PB-STJeVBFomJlvbfFjLzuMmFUB8Jr7CF17H4AJ68OkCD9Ba7vAt-rUAfZ1THhZOaqHHOs8aqGQ",
+            "playerName": "eomer#TUEUR",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 589,
+              "wins": 141,
+              "losses": 126,
+              "winrate": 52.8
+            },
+            "championId": 166,
+            "championName": "Akshan",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Akshan.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 60,
+              "TOP": 30,
+              "ADC": 10
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "nXZedT0VeOU9A8WId4NBaaIXN_HwlKUJZg3eOo1tpoYuqCeN5xe0UYyMTZEYtorFLJiZtiJvsO-f5g",
+            "playerName": "Kahojin#gwen",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 227,
+              "wins": 34,
+              "losses": 26,
+              "winrate": 56.7
+            },
+            "championId": 887,
+            "championName": "Gwen",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Gwen.png",
+            "spell1Id": 11,
+            "spell2Id": 4,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "TOP": 85,
+              "MID": 10,
+              "JUNGLE": 5
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "UQ7Q2Az9pot2iE_6mAWQY0On17XC_lhV5m_Li87I_k1-9qdNOBuWbs_ZEMgpAchesmF1QmztSoWlUg",
+            "playerName": "Brathee#Ben",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 515,
+              "wins": 100,
+              "losses": 86,
+              "winrate": 53.8
+            },
+            "championId": 517,
+            "championName": "Sylas",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sylas.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 70,
+              "JUNGLE": 20,
+              "TOP": 10
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "5gqMOO78WAh3FTdbveJ73O_nnAN3Z9BhBZFGW2uYaa_GGWAVrjEOIEe7kbQe8dPnMRn_em_z1wOUeA",
+            "playerName": "sano x toph#2121",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 208,
+              "wins": 30,
+              "losses": 27,
+              "winrate": 52.6
+            },
+            "championId": 29,
+            "championName": "Twitch",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Twitch.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 85,
+              "TOP": 10,
+              "JUNGLE": 5
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "rankInfo": null,
+            "championId": 117,
+            "championName": "Lulu",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Lulu.png",
+            "spell1Id": 3,
+            "spell2Id": 4,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 85,
+              "MID": 15
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": "Ujxss0eNJmxwHFKQoJ03-rY7rGPOA5aT_oqFpc-ILSQipzck9IPIWdcNCa7cZLhiIvDksgCa-GRFWA",
+            "playerName": "Kazetrox#EUW",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 399,
+              "wins": 117,
+              "losses": 104,
+              "winrate": 52.9
+            },
+            "championId": 85,
+            "championName": "Kennen",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kennen.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 60,
+              "MID": 40
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "16RabdMnxOi0jVr8Bsjb5Jgwz98vEaPgmPVbmY3HtDHEqn5YwN7N1iDIRwYdMtzYYblj_JVuCA6qjA",
+            "playerName": "WHERE IS SKAARL#GODPY",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 410,
+              "wins": 54,
+              "losses": 39,
+              "winrate": 58.1
+            },
+            "championId": 203,
+            "championName": "Kindred",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kindred.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 90,
+              "ADC": 10
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "yX0YUxPxnBQovfTncERjrwajxuD8UWBCslQ-MIIgZoQr8oaaBtMAFu9UtFF545MrVpmI5JC07f0pOg",
+            "playerName": "H3X#SCAS",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 267,
+              "wins": 38,
+              "losses": 32,
+              "winrate": 54.3
+            },
+            "championId": 84,
+            "championName": "Akali",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Akali.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 80,
+              "TOP": 20
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "rankInfo": null,
+            "championId": 119,
+            "championName": "Draven",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Draven.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 95,
+              "MID": 5
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "6xbrpCA00_fx3zQkAEOm8G5YWt9cEU_KlHh_gp97QEWkWD6BR8pXqLyY8DSQdowD3R0AwZTicr3Gcw",
+            "playerName": "brb#411",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 542,
+              "wins": 56,
+              "losses": 44,
+              "winrate": 56
+            },
+            "championId": 111,
+            "championName": "Nautilus",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nautilus.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 85,
+              "TOP": 10,
+              "JUNGLE": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [
+          {
+            "userId": "601212946420334635",
+            "amount": 500,
+            "oddsAtBet": 2,
+            "placedAt": "2026-02-01T16:25:19.118Z"
+          }
+        ],
+        "red": []
+      },
+      "pools": {
+        "blue": 500,
+        "red": 0
+      },
+      "messageId": "1467556358135218311",
+      "channelId": "1467545780435816590",
+      "createdAt": "2026-02-01T16:25:00.261Z"
+    },
+    "7711725279": {
+      "gameId": "7711725279",
+      "trackedPlayer": {
+        "puuid": "VihCZnQ_t427-ea7Odyf7mCnYt_yvgxKga7BFVAwL-aLoKjW6bYhBdJWKnEWXOHzNH0in-MFCtfdug",
+        "discordId": "1392903288911040683",
+        "gameName": "Suceur2Pieds",
+        "tagLine": "Panar",
+        "championId": 29,
+        "championName": "Twitch",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Twitch.png",
+        "teamId": 100
+      },
+      "gameStartTime": 1769962622680,
+      "bettingEndsAt": 1769963307974,
+      "status": "open",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": "GTBF2__0Uka_yE0Y_nEC4p43sgz1LhEFGAm42UgfpM-RwfgLQrAUaiMvk5W1ZQ0xnxjkyviN5Wsvkw",
+            "playerName": "Spooky Meta FOU#ELY",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 2,
+              "wins": 27,
+              "losses": 31,
+              "winrate": 46.6
+            },
+            "championId": 68,
+            "championName": "Rumble",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Rumble.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 80,
+              "MID": 20
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "SQLgfISR7S_tQbJI8Tx77D_etYygIhpSTFENlMnQ_USe0427BxZoQ_3Yg2XkeXRVhbvl5VnZojcFxw",
+            "playerName": "ANTAGON1ST#YVL",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 91,
+              "wins": 87,
+              "losses": 68,
+              "winrate": 56.1
+            },
+            "championId": 203,
+            "championName": "Kindred",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kindred.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 90,
+              "ADC": 10
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "_AhHWzgPOZBkK683F_YWbW6sNmL3A1UeXRl4QHNUGG3Ll6nHhWn_VReORbyv6ccRSaIQzhu8hSt3BQ",
+            "playerName": "kyousuke666#WIN",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 161,
+              "wins": 58,
+              "losses": 59,
+              "winrate": 49.6
+            },
+            "championId": 103,
+            "championName": "Ahri",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ahri.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 85,
+              "SUPPORT": 10,
+              "ADC": 5
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "VihCZnQ_t427-ea7Odyf7mCnYt_yvgxKga7BFVAwL-aLoKjW6bYhBdJWKnEWXOHzNH0in-MFCtfdug",
+            "playerName": "Suceur2Pieds#Panar",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 0,
+              "wins": 81,
+              "losses": 66,
+              "winrate": 55.1
+            },
+            "championId": 29,
+            "championName": "Twitch",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Twitch.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 85,
+              "TOP": 10,
+              "JUNGLE": 5
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "PGnjdjI8W72Yy5qNPvzXQ5qCC8PG7_y1_dDNweDAuTNhRiTGb9k07FMigBo8Q3gOyG4Y4tAVfGjWKQ",
+            "playerName": "BRISECOKE#EUW",
+            "rankInfo": null,
+            "championId": 412,
+            "championName": "Thresh",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Thresh.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "TOP": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": "G8v_RPEvINg_69jdEP1jx2TsCEOCNygajECzttFrysDjhmS4OmbOTinOI8tcclvPjG27ESafhrO57w",
+            "playerName": "Somberlain#616",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 49,
+              "wins": 30,
+              "losses": 28,
+              "winrate": 51.7
+            },
+            "championId": 39,
+            "championName": "Irelia",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Irelia.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 70,
+              "MID": 30
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "rankInfo": null,
+            "championId": 234,
+            "championName": "Viego",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Viego.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 85,
+              "TOP": 10,
+              "MID": 5
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "Zb5IotsWXupetYFUi2yhyTBluitv8uzeYZpx9ezpVuhpfw1i1-x62UUEtV2761BbHV95IX6_VT-jHA",
+            "playerName": "dom xc#sin",
+            "rankInfo": null,
+            "championId": 67,
+            "championName": "Vayne",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Vayne.png",
+            "spell1Id": 21,
+            "spell2Id": 4,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 85,
+              "TOP": 15
+            },
+            "role": "ADC"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [],
+        "red": []
+      },
+      "pools": {
+        "blue": 0,
+        "red": 0
+      },
+      "messageId": "1467556473960665220",
+      "channelId": "1467545780435816590",
+      "createdAt": "2026-02-01T16:25:27.974Z"
+    }
+  },
+  "betHistory": [
+    {
+      "gameId": "7711573395",
+      "trackedPlayer": {
+        "puuid": "We9PB-STJeVBFomJlvbfFjLzuMmFUB8Jr7CF17H4AJ68OkCD9Ba7vAt-rUAfZ1THhZOaqHHOs8aqGQ",
+        "discordId": "320604560672555020",
+        "gameName": "eomer",
+        "tagLine": "TUEUR",
+        "championId": 166,
+        "championName": "Akshan",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Akshan.png",
+        "teamId": 100
+      },
+      "gameStartTime": 1769957607204,
+      "bettingEndsAt": 1769957837629,
+      "status": "cancelled",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 223,
+            "championName": "Tahm Kench",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/TahmKench.png"
+          },
+          {
+            "puuid": "LY6vaC4c1emv48SGBMOqOXA-WQwgLJYpXHTvsGtASkRturbPWRKi99tE1caxgUgWEFbhFkF1jvG1ag",
+            "playerName": "some anion",
+            "championId": 16,
+            "championName": "Soraka",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Soraka.png"
+          },
+          {
+            "puuid": "We9PB-STJeVBFomJlvbfFjLzuMmFUB8Jr7CF17H4AJ68OkCD9Ba7vAt-rUAfZ1THhZOaqHHOs8aqGQ",
+            "playerName": "eomer",
+            "championId": 166,
+            "championName": "Akshan",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Akshan.png"
+          },
+          {
+            "puuid": "Hs8E27tpAkQ4Kj6-i_zyP-NeKCWAjCEo9zPRFp-lczdZDUrCuW_LmUwMHRS59sBTSmg8U4ZYcEF7jw",
+            "playerName": "haircut",
+            "championId": 887,
+            "championName": "Gwen",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Gwen.png"
+          },
+          {
+            "puuid": "44KsJ2a3buCvJLON3-uKS0VSPT0MospxAKGMzMVZzjY1ZoZ4tc8wLulnjtYYzterz5NoO1TmGANjIg",
+            "playerName": "MOBashiir",
+            "championId": 238,
+            "championName": "Zed",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Zed.png"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 234,
+            "championName": "Viego",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Viego.png"
+          },
+          {
+            "puuid": "hCrzeWAaHEG6CldemSsA26ubNa3O2GrtAyERfzjGWkBSE66pMkmpgnT_HHC1LgSum3Kr3viEkCMVcw",
+            "playerName": "Ghost",
+            "championId": 50,
+            "championName": "Swain",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Swain.png"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 799,
+            "championName": "Ambessa",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ambessa.png"
+          },
+          {
+            "puuid": "xYqgzB2OOOJndflsv6aevGe9N4FccgfXERQh_0CgGqc0TuRSQ2482OJB7aD3mX_Zsyz3ll61d6un_w",
+            "playerName": "Zaine1o",
+            "championId": 103,
+            "championName": "Ahri",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ahri.png"
+          },
+          {
+            "puuid": "6W6GkS0hNoC63G97Aq3hXrOQkohoX5sAk9BOEc4TDMHo-e0e84DeLXpyOYT4QJZwQDI51P8ARv8X6A",
+            "playerName": "Super Shoοter",
+            "championId": 523,
+            "championName": "Aphelios",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Aphelios.png"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [
+          {
+            "userId": "256077456505569280",
+            "amount": 100,
+            "oddsAtBet": 2,
+            "placedAt": "2026-02-01T14:55:16.886Z"
+          }
+        ],
+        "red": []
+      },
+      "pools": {
+        "blue": 100,
+        "red": 0
+      },
+      "messageId": "1467533535975047253",
+      "channelId": "1467280332423430407",
+      "createdAt": "2026-02-01T14:54:17.629Z",
+      "cancelledAt": "2026-02-01T15:48:48.140Z"
+    },
+    {
+      "gameId": "7711574377",
+      "trackedPlayer": {
+        "puuid": "rIM6lVr6Xmlnyfh2jYeuPemWTw1zu0bnyaboMJ7jC_wPy5U1QBejql3e9sct-mQxSt4OCpO1tjm4Yg",
+        "discordId": "234331527624916992",
+        "gameName": "GRABUGEーVACARME",
+        "tagLine": "444",
+        "championId": 254,
+        "championName": "Vi",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Vi.png",
+        "teamId": 200
+      },
+      "gameStartTime": 1769957691591,
+      "bettingEndsAt": 1769957947684,
+      "status": "cancelled",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 799,
+            "championName": "Ambessa",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ambessa.png"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 122,
+            "championName": "Darius",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Darius.png"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 31,
+            "championName": "Cho'Gath",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Chogath.png"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 432,
+            "championName": "Bard",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Bard.png"
+          },
+          {
+            "puuid": "tKXEn8dSv_V6ImsUfxb0CCCTUBW2wt1rR3qOoVx3oyDDKDrEeFdbf8VlNCkuYmXUmKD18Nx-y2mrlQ",
+            "playerName": "waste of current",
+            "championId": 523,
+            "championName": "Aphelios",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Aphelios.png"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 55,
+            "championName": "Katarina",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Katarina.png"
+          },
+          {
+            "puuid": "H2uUSarSGePQFc-MXKiTlV3mZVp5znqHPZcF7ORnpqm_gByY8fYtfaw0917T19vENfrlokU1RGzCeA",
+            "playerName": "THE EQUALIZER",
+            "championId": 114,
+            "championName": "Fiora",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Fiora.png"
+          },
+          {
+            "puuid": "SUiTMjt8W4v8ZOaQkQzEWX0BgpTtGUMRxcyoCK8ckllJztjVRX3YNoaz_FqTRvX_SSlRP8nHOpntFw",
+            "playerName": "div5stuck",
+            "championId": 111,
+            "championName": "Nautilus",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nautilus.png"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 115,
+            "championName": "Ziggs",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ziggs.png"
+          },
+          {
+            "puuid": "rIM6lVr6Xmlnyfh2jYeuPemWTw1zu0bnyaboMJ7jC_wPy5U1QBejql3e9sct-mQxSt4OCpO1tjm4Yg",
+            "playerName": "GRABUGEーVACARME",
+            "championId": 254,
+            "championName": "Vi",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Vi.png"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [],
+        "red": [
+          {
+            "userId": "256077456505569280",
+            "amount": 100,
+            "oddsAtBet": 2,
+            "placedAt": "2026-02-01T14:56:32.586Z"
+          }
+        ]
+      },
+      "pools": {
+        "blue": 0,
+        "red": 100
+      },
+      "messageId": "1467533990264049704",
+      "channelId": "1467280332423430407",
+      "createdAt": "2026-02-01T14:56:07.684Z",
+      "cancelledAt": "2026-02-01T15:50:32.985Z"
+    },
+    {
+      "gameId": "7711600194",
+      "trackedPlayer": {
+        "puuid": "lmUdmtH6BR9vDNG2mlBoKnjVgP_3flk2Dxobs3JPsKgjyXnAtoRs55bkpkgky9dzAA0rZ0zaaqI3_w",
+        "discordId": "312981466449575938",
+        "gameName": "SenSen",
+        "tagLine": "EUWFR",
+        "championId": 76,
+        "championName": "Nidalee",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nidalee.png",
+        "teamId": 200
+      },
+      "gameStartTime": 1769958531923,
+      "bettingEndsAt": 1769958731385,
+      "status": "cancelled",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": "DTTvwJdT-nW65QoDcANyYCTMjK1-pf9SYfvjNvx0KY6UFYQxi9PvMW5JAB_vOOX09iQjB6u8CPSnPQ",
+            "playerName": "Mehrio",
+            "championId": 41,
+            "championName": "Gangplank",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Gangplank.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "SUPPORT",
+            "roleScores": {},
+            "role": "TOP"
+          },
+          {
+            "puuid": "2B_VTNoMKv941LuNORB2DIEHe2eGNMAAUf4mE2jgBOdq70dRc7aXOs-kJjH1_MeclkW5xcCSnAeyNg",
+            "playerName": "Clicker",
+            "championId": 20,
+            "championName": "Nunu et Willump",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nunu.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 95,
+              "TOP": 5
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "NT0ROFFdlZtzJkIjuzoDpEuEyq_N_os_qdRnnRrIhCOjTLrxOaoUUv3vRDftgUBwOMMWHnGTES0wgA",
+            "playerName": "ABV Emil",
+            "championId": 4,
+            "championName": "Twisted Fate",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/TwistedFate.png",
+            "spell1Id": 4,
+            "spell2Id": 6,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 85,
+              "ADC": 15
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "vEVLCpTGK4PcKczcj89_ThAfh3Xcci1M3An_bo-6zQUOfDk2tUHwSuHkJH04UIAwfyyXiOFMSGgjYw",
+            "playerName": "mentor ad acc",
+            "championId": 901,
+            "championName": "Smolder",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Smolder.png",
+            "spell1Id": 21,
+            "spell2Id": 4,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 90,
+              "MID": 10
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "7IHGU0kkd6hZlGyKRh8W37_KMo96X5fg2bU_LH7iWoxjz_lucag68v920JhpbjwbzNvViJKLSgwpVA",
+            "playerName": "Rεsh",
+            "championId": 111,
+            "championName": "Nautilus",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nautilus.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 85,
+              "TOP": 10,
+              "JUNGLE": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": "PbmQXtl_Soa4GVWiK27hDsDcrfTqQLER32cQ-5hfdyJNyOVOJqLScIm1DuSTFLd2dam79BxvqGkv6g",
+            "playerName": "Déimos",
+            "championId": 113,
+            "championName": "Sejuani",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sejuani.png",
+            "spell1Id": 12,
+            "spell2Id": 14,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "JUNGLE": 95,
+              "TOP": 5
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "lmUdmtH6BR9vDNG2mlBoKnjVgP_3flk2Dxobs3JPsKgjyXnAtoRs55bkpkgky9dzAA0rZ0zaaqI3_w",
+            "playerName": "SenSen",
+            "championId": 76,
+            "championName": "Nidalee",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nidalee.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 85,
+              "MID": 15
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "tvFRzVVzrQkgNkjmOwygz_tEh6rL1YuIDkiZJFcYIvqlII7cK-XvN0IYpumAPZxRK3wRzJhBhJoCHw",
+            "playerName": "Aiko",
+            "championId": 81,
+            "championName": "Ezreal",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ezreal.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 90,
+              "MID": 10
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 267,
+            "championName": "Nami",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Nami.png",
+            "spell1Id": 4,
+            "spell2Id": 7,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "MID": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [],
+        "red": [
+          {
+            "userId": "256077456505569280",
+            "amount": 15,
+            "oddsAtBet": 2,
+            "placedAt": "2026-02-01T15:11:15.705Z"
+          }
+        ]
+      },
+      "pools": {
+        "blue": 0,
+        "red": 15
+      },
+      "messageId": "1467537276258226373",
+      "channelId": "1467280332423430407",
+      "createdAt": "2026-02-01T15:09:11.385Z",
+      "cancelledAt": "2026-02-01T15:50:47.507Z"
+    },
+    {
+      "gameId": "7711608782",
+      "trackedPlayer": {
+        "puuid": "VihCZnQ_t427-ea7Odyf7mCnYt_yvgxKga7BFVAwL-aLoKjW6bYhBdJWKnEWXOHzNH0in-MFCtfdug",
+        "discordId": "1392903288911040683",
+        "gameName": "Suceur2Pieds",
+        "tagLine": "Panar",
+        "championId": 145,
+        "championName": "Kai'Sa",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kaisa.png",
+        "teamId": 200
+      },
+      "gameStartTime": 1769958706807,
+      "bettingEndsAt": 1769958914730,
+      "status": "cancelled",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": "Jxdml8TqkhP933LcI_7LLrc1xEFRN9MqqLy5WjjnEL6cetPDDrjVrmG6NQIgl59MabSxhkAWNjYKJA",
+            "playerName": "Râphtalia",
+            "championId": 36,
+            "championName": "Dr. Mundo",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/DrMundo.png",
+            "spell1Id": 6,
+            "spell2Id": 12,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 90,
+              "JUNGLE": 10
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "37kkMRW0DRrBoYxoWh0GYX8hH0WwLI4rdAgpiP8-xBHa_GhFd4QX_UEY7R-djeE5l5z1OgVpHNa2HQ",
+            "playerName": "Suck my K1cK",
+            "championId": 238,
+            "championName": "Zed",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Zed.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "MID": 90,
+              "TOP": 10
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "mvyzjDN3Y1irvuzp17vlXLNhqwRYHUNIUdWx2buVWI2IvKCo3LLzvTsSKDPXm_NKVTj5u6m9EmH6TA",
+            "playerName": "Ononainat",
+            "championId": 517,
+            "championName": "Sylas",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sylas.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 70,
+              "JUNGLE": 20,
+              "TOP": 10
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "NN_oCAKqcViwePMwlWy5CGbunFnsUnnSHg1SCGMFT3GQJP-87yjomMzxq3eaCjo3Fz3Hqiy69n_Xuw",
+            "playerName": "MrMark2271",
+            "championId": 804,
+            "championName": "Yunara",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Yunara.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 90,
+              "MID": 10
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "xTi6_dZ6npW7H6kisnvzP4x9x1Now5qlJ2_t9mGMOZliEyBOmk7muuCcxai4Ls-wja8-Do8mpNBVMQ",
+            "playerName": "prae",
+            "championId": 902,
+            "championName": "Milio",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Milio.png",
+            "spell1Id": 7,
+            "spell2Id": 4,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "MID": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": "GTBF2__0Uka_yE0Y_nEC4p43sgz1LhEFGAm42UgfpM-RwfgLQrAUaiMvk5W1ZQ0xnxjkyviN5Wsvkw",
+            "playerName": "Spooky Meta FOU",
+            "championId": 240,
+            "championName": "Kled",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kled.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 90,
+              "MID": 10
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "CwXk0S3KU8VA6I2HkwHOWXAMFhtwigY4g8W-uu2mmI-gaL7i4-PrcfwmgUPB-J-ex4Shc6qzSPGcqQ",
+            "playerName": "8th Inner Gate",
+            "championId": 104,
+            "championName": "Graves",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Graves.png",
+            "spell1Id": 11,
+            "spell2Id": 4,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 90,
+              "ADC": 10
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "championId": 1,
+            "championName": "Annie",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Annie.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 70,
+              "SUPPORT": 30
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "VihCZnQ_t427-ea7Odyf7mCnYt_yvgxKga7BFVAwL-aLoKjW6bYhBdJWKnEWXOHzNH0in-MFCtfdug",
+            "playerName": "Suceur2Pieds",
+            "championId": 145,
+            "championName": "Kai'Sa",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Kaisa.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 90,
+              "MID": 10
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "F8LCI83nVXUyuABR-ZdmFKOZYp6W3W7blUGaKTjLLU5NO830krccAEnjB19fEMQuGNx6r_5OaZNhuw",
+            "playerName": "mango",
+            "championId": 37,
+            "championName": "Sona",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sona.png",
+            "spell1Id": 4,
+            "spell2Id": 7,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "MID": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [],
+        "red": []
+      },
+      "pools": {
+        "blue": 0,
+        "red": 0
+      },
+      "messageId": "1467538046088904704",
+      "channelId": "1467280332423430407",
+      "createdAt": "2026-02-01T15:12:14.730Z",
+      "cancelledAt": "2026-02-01T15:50:57.469Z"
+    },
+    {
+      "gameId": "7711617687",
+      "trackedPlayer": {
+        "puuid": "3uuFx-Tra6rXgwaz169qra_RDnkG0qyQuA_bsAd4XO4bcXmLUgDrNKwykIJnaTPMs0ztgS4lb4IPuw",
+        "discordId": "727522457971327107",
+        "gameName": "Thanos",
+        "tagLine": "EUW12",
+        "championId": 517,
+        "championName": "Sylas",
+        "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sylas.png",
+        "teamId": 200
+      },
+      "gameStartTime": 1769958964356,
+      "bettingEndsAt": 1769959180326,
+      "status": "cancelled",
+      "blueTeam": {
+        "participants": [
+          {
+            "puuid": "tYBIs88OrtQvfTI3qcBnnHyYIfVmOQM8X2Tt8xhRMD4WAbyMpbsQyJnUIwBPsFC8NxYsy4bWIpIVIg",
+            "playerName": "Sexenpol",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 101
+            },
+            "championId": 26,
+            "championName": "Zilean",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Zilean.png",
+            "spell1Id": 12,
+            "spell2Id": 4,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 50,
+              "SUPPORT": 50
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "rankInfo": null,
+            "championId": 234,
+            "championName": "Viego",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Viego.png",
+            "spell1Id": 4,
+            "spell2Id": 11,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "JUNGLE": 85,
+              "TOP": 10,
+              "MID": 5
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": "iih3_OP1Iteh0Egx1aQOGIiH3PJfIpY608bmU06HTLTRQ0Rxw7V9vl11Y9OLX1npHvp_bk4xjmtDIA",
+            "playerName": "Pták Angorák",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 172
+            },
+            "championId": 115,
+            "championName": "Ziggs",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ziggs.png",
+            "spell1Id": 14,
+            "spell2Id": 4,
+            "detectedRole": "MID",
+            "roleScores": {
+              "MID": 60,
+              "ADC": 40
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "dB_-_QDegZT16WbdMSbIvQlpZRzpd6S1ER9izrFrXVBgV_4D7Gh6P6VXqNQ0NoIpxBO50nHdeGq4Rg",
+            "playerName": "0l3x",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 22
+            },
+            "championId": 22,
+            "championName": "Ashe",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Ashe.png",
+            "spell1Id": 4,
+            "spell2Id": 21,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 90,
+              "SUPPORT": 10
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "hD37TBe7bjP5sBHF-l9sk2KnFM2SxQmLMe8l3NyvkbSFzrmG1F4GBbF_L5Y90By71175PXtnSdsuXg",
+            "playerName": "Ρredicted",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 115
+            },
+            "championId": 902,
+            "championName": "Milio",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Milio.png",
+            "spell1Id": 7,
+            "spell2Id": 4,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "MID": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "redTeam": {
+        "participants": [
+          {
+            "puuid": "01u6NxQJlEbv-1hiWlbkRcVU0xMWN2W3hEPPA73W0kEI0IHEzvG02RUk7uxOheWmtE17z_eUxmKt9A",
+            "playerName": "Fool",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 293
+            },
+            "championId": 887,
+            "championName": "Gwen",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Gwen.png",
+            "spell1Id": 4,
+            "spell2Id": 14,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "TOP": 85,
+              "MID": 10,
+              "JUNGLE": 5
+            },
+            "role": "TOP"
+          },
+          {
+            "puuid": "3uuFx-Tra6rXgwaz169qra_RDnkG0qyQuA_bsAd4XO4bcXmLUgDrNKwykIJnaTPMs0ztgS4lb4IPuw",
+            "playerName": "Thanos",
+            "rankInfo": {
+              "tier": "MASTER",
+              "rank": "I",
+              "lp": 141
+            },
+            "championId": 517,
+            "championName": "Sylas",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Sylas.png",
+            "spell1Id": 11,
+            "spell2Id": 4,
+            "detectedRole": "JUNGLE",
+            "roleScores": {
+              "MID": 70,
+              "JUNGLE": 20,
+              "TOP": 10
+            },
+            "role": "JUNGLE"
+          },
+          {
+            "puuid": null,
+            "playerName": null,
+            "rankInfo": null,
+            "championId": 2,
+            "championName": "Olaf",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Olaf.png",
+            "spell1Id": 6,
+            "spell2Id": 4,
+            "detectedRole": "TOP",
+            "roleScores": {
+              "JUNGLE": 95,
+              "TOP": 5
+            },
+            "role": "MID"
+          },
+          {
+            "puuid": "MZBJwiRUe5epHkhCbUKY0LHLCIXof19TgsN70cUrk_cCBQkSZH-qwhudNWeJZxAKHb8HFXq6fVlSbQ",
+            "playerName": "Nilzznn",
+            "rankInfo": {
+              "tier": "EMERALD",
+              "rank": "I",
+              "lp": 27
+            },
+            "championId": 222,
+            "championName": "Jinx",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Jinx.png",
+            "spell1Id": 21,
+            "spell2Id": 4,
+            "detectedRole": "ADC",
+            "roleScores": {
+              "ADC": 95,
+              "MID": 5
+            },
+            "role": "ADC"
+          },
+          {
+            "puuid": "qG7oXigXQ3z626p8Yc5CWL64j42UpbzJTHq44folcA_zGowWKLy-UHEtYQ53mTYdubuHEUihM9il9Q",
+            "playerName": "ttiimmppeenn1122",
+            "rankInfo": {
+              "tier": "DIAMOND",
+              "rank": "IV",
+              "lp": 30
+            },
+            "championId": 350,
+            "championName": "Yuumi",
+            "championIcon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/champion/Yuumi.png",
+            "spell1Id": 3,
+            "spell2Id": 7,
+            "detectedRole": "SUPPORT",
+            "roleScores": {
+              "SUPPORT": 95,
+              "MID": 5
+            },
+            "role": "SUPPORT"
+          }
+        ]
+      },
+      "bets": {
+        "blue": [],
+        "red": []
+      },
+      "pools": {
+        "blue": 0,
+        "red": 0
+      },
+      "messageId": "1467539160985505853",
+      "channelId": "1467280332423430407",
+      "createdAt": "2026-02-01T15:16:40.326Z",
+      "cancelledAt": "2026-02-01T15:51:08.030Z"
+    }
+  ]
+}

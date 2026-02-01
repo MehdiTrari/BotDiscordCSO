@@ -1,0 +1,21 @@
+{
+  "wallets": {
+    "256077456505569280": {
+      "balance": 1215,
+      "totalWon": 0,
+      "totalLost": 0,
+      "betsWon": 0,
+      "betsLost": 0,
+      "createdAt": "2026-02-01T15:41:47.536Z"
+    },
+    "601212946420334635": {
+      "balance": 500,
+      "totalWon": 0,
+      "totalLost": 0,
+      "betsWon": 0,
+      "betsLost": 0,
+      "createdAt": "2026-02-01T16:25:19.116Z"
+    }
+  },
+  "defaultTokens": 1000
+}

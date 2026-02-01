@@ -11,8 +11,8 @@
     {
       "discordId": "228179048965210113",
       "discordTag": "aurorah02",
-      "gameName": "drown the light",
-      "tagLine": "cso",
+      "gameName": "Este",
+      "tagLine": "CSO",
       "puuid": "gb3Djym_xjAutqdRVIGt0dX0VD91GMxB0IG2xxy6NJx-D5Q_43ol7m3vlApQC0iMFSFpJTtVxmnwVQ",
       "addedAt": "2026-01-16T15:04:05.578Z"
     },
@@ -27,8 +27,8 @@
     {
       "discordId": "320604560672555020",
       "discordTag": "eomer11",
-      "gameName": "lechemesboules",
-      "tagLine": "eomer",
+      "gameName": "eomer",
+      "tagLine": "TUEUR",
       "puuid": "We9PB-STJeVBFomJlvbfFjLzuMmFUB8Jr7CF17H4AJ68OkCD9Ba7vAt-rUAfZ1THhZOaqHHOs8aqGQ",
       "addedAt": "2026-01-16T15:11:45.080Z"
     },
@@ -122,50 +122,50 @@
     }
   ],
   "snapshot": {
-    "updatedAt": "2026-01-23T11:07:21.937Z",
+    "updatedAt": "2026-02-01T16:25:39.194Z",
     "items": [
       {
         "discordId": "204395481567068161",
         "riotName": "Kasipasun#candi",
-        "tier": "DIAMOND",
+        "tier": "MASTER",
         "rank": "I",
-        "lp": 55,
-        "wins": 24,
-        "losses": 25,
-        "totalGames": 49,
+        "lp": 90,
+        "wins": 29,
+        "losses": 29,
+        "totalGames": 58,
         "score": null
       },
       {
         "discordId": "228179048965210113",
-        "riotName": "drown the light#cso",
+        "riotName": "Este#CSO",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 434,
-        "wins": 45,
-        "losses": 40,
-        "totalGames": 85,
+        "lp": 636,
+        "wins": 58,
+        "losses": 50,
+        "totalGames": 108,
         "score": null
       },
       {
         "discordId": "601212946420334635",
         "riotName": "qaxzqaxzaqaxcvcx#EUW",
-        "tier": "CHALLENGER",
+        "tier": "GRANDMASTER",
         "rank": "I",
-        "lp": 1044,
-        "wins": 101,
-        "losses": 77,
-        "totalGames": 178,
+        "lp": 1020,
+        "wins": 139,
+        "losses": 117,
+        "totalGames": 256,
         "score": null
       },
       {
         "discordId": "320604560672555020",
-        "riotName": "lechemesboules#eomer",
-        "tier": "GRANDMASTER",
+        "riotName": "eomer#TUEUR",
+        "tier": "MASTER",
         "rank": "I",
-        "lp": 918,
-        "wins": 116,
-        "losses": 85,
-        "totalGames": 201,
+        "lp": 589,
+        "wins": 141,
+        "losses": 126,
+        "totalGames": 267,
         "score": null
       },
       {
@@ -173,10 +173,10 @@
         "riotName": "Nilsog#EUW",
         "tier": "GRANDMASTER",
         "rank": "I",
-        "lp": 790,
-        "wins": 72,
-        "losses": 68,
-        "totalGames": 140,
+        "lp": 1164,
+        "wins": 106,
+        "losses": 90,
+        "totalGames": 196,
         "score": null
       },
       {
@@ -184,10 +184,10 @@
         "riotName": "My spear in your#EUW",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 250,
-        "wins": 50,
-        "losses": 64,
-        "totalGames": 114,
+        "lp": 434,
+        "wins": 61,
+        "losses": 71,
+        "totalGames": 132,
         "score": null
       },
       {
@@ -195,10 +195,10 @@
         "riotName": "GRABUGEーVACARME#444",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 529,
-        "wins": 48,
-        "losses": 41,
-        "totalGames": 89,
+        "lp": 731,
+        "wins": 66,
+        "losses": 62,
+        "totalGames": 128,
         "score": null
       },
       {
@@ -206,21 +206,21 @@
         "riotName": "SenSen#EUWFR",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 381,
-        "wins": 43,
-        "losses": 50,
-        "totalGames": 93,
+        "lp": 551,
+        "wins": 52,
+        "losses": 64,
+        "totalGames": 116,
         "score": null
       },
       {
         "discordId": "1392903288911040683",
         "riotName": "Suceur2Pieds#Panar",
-        "tier": "DIAMOND",
-        "rank": "II",
-        "lp": 1,
-        "wins": 56,
-        "losses": 48,
-        "totalGames": 104,
+        "tier": "MASTER",
+        "rank": "I",
+        "lp": 0,
+        "wins": 81,
+        "losses": 66,
+        "totalGames": 147,
         "score": null
       },
       {
@@ -228,10 +228,10 @@
         "riotName": "Smogii#EUW",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 344,
-        "wins": 65,
-        "losses": 66,
-        "totalGames": 131,
+        "lp": 337,
+        "wins": 75,
+        "losses": 80,
+        "totalGames": 155,
         "score": null
       },
       {
@@ -239,10 +239,10 @@
         "riotName": "Tate McRae#WIFE",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 38,
-        "wins": 36,
-        "losses": 37,
-        "totalGames": 73,
+        "lp": 119,
+        "wins": 53,
+        "losses": 54,
+        "totalGames": 107,
         "score": null
       },
       {
@@ -250,10 +250,10 @@
         "riotName": "Lady Maria#CSO",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 96,
-        "wins": 74,
-        "losses": 77,
-        "totalGames": 151,
+        "lp": 37,
+        "wins": 79,
+        "losses": 84,
+        "totalGames": 163,
         "score": null
       },
       {
@@ -261,10 +261,10 @@
         "riotName": "Robespierre#CSO",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 170,
-        "wins": 105,
-        "losses": 114,
-        "totalGames": 219,
+        "lp": 87,
+        "wins": 143,
+        "losses": 155,
+        "totalGames": 298,
         "score": null
       },
       {
@@ -272,10 +272,10 @@
         "riotName": "Thanos#EUW12",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 139,
-        "wins": 62,
-        "losses": 59,
-        "totalGames": 121,
+        "lp": 121,
+        "wins": 64,
+        "losses": 62,
+        "totalGames": 126,
         "score": null
       },
       {
@@ -283,10 +283,10 @@
         "riotName": "鲁贝恶魔#CSO",
         "tier": "MASTER",
         "rank": "I",
-        "lp": 198,
-        "wins": 33,
-        "losses": 25,
-        "totalGames": 58,
+        "lp": 215,
+        "wins": 37,
+        "losses": 32,
+        "totalGames": 69,
         "score": null
       }
     ]

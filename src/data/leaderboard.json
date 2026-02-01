@@ -4,7 +4,7 @@
       "discordId": "204395481567068161",
       "discordTag": "kasipasun",
       "gameName": "Kasipasun",
-      "tagLine": "candi",
+      "tagLine": "CANDI",
       "puuid": "IgQjkCSy3LYcvOg58czRvHBLSikmjrIOfVyPDeGofvwlIRUo8Th-tZiA9TOJ1WnZhs9ecXFIdeCZHQ",
       "addedAt": "2026-01-16T15:03:54.272Z"
     },
@@ -119,14 +119,30 @@
       "tagLine": "CSO",
       "puuid": "2mU-D4e1PHKUEfwv7LCJFBws9rZRIAMdVb8DdX6VgriaIBLILid05fnBy7rhRKn-8WXFgDsYFF7V2w",
       "addedAt": "2026-01-16T19:29:45.831Z"
+    },
+    {
+      "discordId": "260450667880120320",
+      "discordTag": ".leokujo",
+      "gameName": "Kim Dokja",
+      "tagLine": "KUJO",
+      "puuid": "CHY_nrG9hqTRHDbxWe2dLKrNX66Jo_EqfqbJFx7r4rfAKJ9AJB9ib2LBWbESF52giaycpmrMFtK3BQ",
+      "addedAt": "2026-01-31T21:41:55.596Z"
+    },
+    {
+      "discordId": "198180077203226625",
+      "discordTag": "sunfry_lol",
+      "gameName": "PCS Moule frite",
+      "tagLine": "MIAM",
+      "puuid": "gE6jwseCYN2RYVfhBCsHXNzswKH00QeiU6ORV_aVdIrodWavD_hcVktBNn2_DQ-Wf2-vKZ2ZTtXOaA",
+      "addedAt": "2026-01-31T21:57:57.915Z"
     }
   ],
   "snapshot": {
-    "updatedAt": "2026-02-01T16:25:39.194Z",
+    "updatedAt": "2026-02-01T16:36:57.944Z",
     "items": [
       {
         "discordId": "204395481567068161",
-        "riotName": "Kasipasun#candi",
+        "riotName": "Kasipasun#CANDI",
         "tier": "MASTER",
         "rank": "I",
         "lp": 90,
@@ -287,6 +303,28 @@
         "wins": 37,
         "losses": 32,
         "totalGames": 69,
+        "score": null
+      },
+      {
+        "discordId": "260450667880120320",
+        "riotName": "Kim Dokja#KUJO",
+        "tier": "MASTER",
+        "rank": "I",
+        "lp": 965,
+        "wins": 86,
+        "losses": 54,
+        "totalGames": 140,
+        "score": null
+      },
+      {
+        "discordId": "198180077203226625",
+        "riotName": "PCS Moule frite#MIAM",
+        "tier": "GRANDMASTER",
+        "rank": "I",
+        "lp": 1203,
+        "wins": 82,
+        "losses": 73,
+        "totalGames": 155,
         "score": null
       }
     ]
